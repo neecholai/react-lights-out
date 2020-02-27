@@ -14,7 +14,6 @@ import "./Cell.css";
  *
  **/
 
-// function flipCellsAroundMe()
 
 function Cell({ flipCellsAroundMe, isLit }) {
   const classes = `Cell ${isLit ? "Cell-lit" : ""}`;
